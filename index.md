@@ -1,9 +1,8 @@
 ---
 layout: default
+title: Top
 ---
 
-# TR-pages
-
-# memo
+# TR-Tech
 
 Jekyll入れてみた！

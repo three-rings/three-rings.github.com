@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<title>TR-Pages</title>
+<title>{{ page.title }} : TR-Tech</title>
+
+<link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+<link href="css/fix.css" type="text/css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<div class="header">
+	{% include head.html %}
+</div>
 
 <div class="container">
 	{{ content }}
